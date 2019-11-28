@@ -8,3 +8,5 @@ const linearSearch = (searchable, arr) => {
 
   return null
 }
+
+// Complexity by time (worst-case running time) = an + b
