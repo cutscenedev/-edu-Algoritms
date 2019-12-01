@@ -1,8 +1,4 @@
 
-
-
-
-
 const mergeSort = (arr, startIndex, endIndex) => {
   if (startIndex < endIndex) {
     const separationIndex = Math.floor((startIndex + endIndex) / 2)
@@ -13,7 +9,6 @@ const mergeSort = (arr, startIndex, endIndex) => {
   }
 }
 
-// used in mergeSort
 const merge = (arr, startIndex, separationIndex, endIndex) => {
   const left = arr.slice(startIndex, separationIndex + 1)
   const right = arr.slice(separationIndex + 1, endIndex + 1)
