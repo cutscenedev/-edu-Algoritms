@@ -1,4 +1,10 @@
 
+/**
+ * complexity (O):
+ *   best: n
+ *   worst: n^2
+ *   average: n^2
+ */
 const insertationSorting = (arr) => {
   for (let j = 1; j < arr.length; j++) {
     const current = arr[j]

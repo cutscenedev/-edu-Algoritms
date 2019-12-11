@@ -1,5 +1,15 @@
 
-const mergeSort = (arr, startIndex, endIndex) => {
+/**
+ * complexity (O):
+ *   best: n*(log(n))
+ *   worst: n*(log(n))
+ *   average: n*(log(n))
+ */
+const mergeSort = (
+  arr,
+  startIndex = 0,
+  endIndex = arr.length - 1,
+) => {
   if (startIndex < endIndex) {
     const separationIndex = Math.floor((startIndex + endIndex) / 2)
 

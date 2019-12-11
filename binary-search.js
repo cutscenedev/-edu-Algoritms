@@ -1,4 +1,10 @@
 
+/**
+ * complexity (O):
+ *   best: 1
+ *   worst: log(n)
+ *   average: log(n)
+ */
 const binarySearch = (
   arr,
   element,

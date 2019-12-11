@@ -1,5 +1,9 @@
 
-const gornerSchema = (x, list, i = 0) => {
+const gornerSchema = (
+  x,
+  list,
+  i = 0,
+) => {
   if (i === list.length - 1) {
     return list[i]
   } else {

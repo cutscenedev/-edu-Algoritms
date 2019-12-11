@@ -1,4 +1,10 @@
 
+/**
+ * complexity (O):
+ *   best: n^2
+ *   worst: n^2
+ *   average: n^2
+ */
 const selectionSort = (unsorted) => {
   const searchedUnsortedIndexes = []
 
