@@ -1,11 +1,15 @@
 
-class Heap {
+class BinaryHeap {
   constructor(heap) {
     this.heap = heap
   }
 
   get heapSize() {
     return this.heap.length
+  }
+
+  get indexBeforeLeafs() {
+    return Math.floor(this.heapSize / 2)
   }
 
   getLeftIndex(index) {
@@ -44,7 +48,13 @@ class Heap {
       this.heap[largest] = this.heap[index]
       this.heap[index] = tempLargest
 
-      this.heapify(this.heap, largest)
+      this.heapify(largest)
+    }
+  }
+
+  buildHeap() {
+    for (let i = this.indexBeforeLeafs; i >= 0; i--) {
+      this.heapify(i)
     }
   }
 }
