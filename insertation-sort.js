@@ -18,3 +18,5 @@ const insertationSorting = (arr) => {
     arr[i + 1] = current
   }
 }
+
+exports = insertationSorting

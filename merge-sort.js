@@ -44,3 +44,5 @@ const merge = (arr, startIndex, separationIndex, endIndex) => {
     }
   }
 }
+
+exports = mergeSort

@@ -10,3 +10,5 @@ const gornerSchema = (
     return list[i] + x * c(x, list, i + 1)
   }
 }
+
+exports = gornerSchema

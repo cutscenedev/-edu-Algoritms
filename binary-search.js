@@ -21,3 +21,5 @@ const binarySearch = (
     return separationIndex
   }
 }
+
+exports = binarySearch

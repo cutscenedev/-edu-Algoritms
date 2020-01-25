@@ -58,3 +58,5 @@ class BinaryHeap {
     }
   }
 }
+
+exports = BinaryHeap

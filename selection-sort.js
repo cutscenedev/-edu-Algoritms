@@ -30,3 +30,5 @@ const selectionSort = (unsorted) => {
 
   return sorted
 }
+
+exports = selectionSort

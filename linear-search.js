@@ -14,3 +14,5 @@ const linearSearch = (searchable, arr) => {
 
   return null
 }
+
+exports = linearSearch
