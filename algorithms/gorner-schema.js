@@ -7,7 +7,7 @@ const gornerSchema = (
   if (i === list.length - 1) {
     return list[i]
   } else {
-    return list[i] + x * c(x, list, i + 1)
+    return list[i] + x * gornerSchema(x, list, i + 1)
   }
 }
 
